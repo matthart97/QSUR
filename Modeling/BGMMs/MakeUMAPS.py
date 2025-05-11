@@ -4,7 +4,7 @@ import json
 import umap as umap
 
 
-df = pd.read_csv('/home/matt/Proj/QSURv3/Data/Curated/UseCaseDataModeling.csv')
+df = pd.read_csv('../../Data/Curated/UseCaseDataModeling.csv')
 
 
 def make_umaps(df,dims, save_folder):
@@ -26,4 +26,4 @@ def make_umaps(df,dims, save_folder):
 
 
 
-make_umaps(df, 50, '/home/matt/Proj/QSURv3/Data/ReducedForBGMM')
+make_umaps(df, 50, '../../Data/ReducedForBGMM')
